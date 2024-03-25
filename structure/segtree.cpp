@@ -4,7 +4,7 @@ using namespace std;
 #define P pair<ll,ll>
 #define rep(i, n) for(ll i=0; i<(ll)(n); i++)
 
-
+// 参考 AtCoder Library
 // 二項演算op,単位元e
 template <typename T, T (*op)(T, T), T (*e)()> 
 struct segtree {
